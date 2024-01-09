@@ -10,7 +10,6 @@ export default function Navbar() {
       <div class="flex items-center flex-shrink-0 text-white mr-6">
         <Image src={logo} alt="logo" width={200} />
       </div>
-      <div class="block lg:hidden"></div>
       <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
         <div class="text-sm lg:flex-grow">
           <a

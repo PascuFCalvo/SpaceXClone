@@ -1,6 +1,9 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/header";
+import LandinPageSection1 from "../app/landingPage/landingPageSection1";
+import LandinPageSection2 from "../app/landingPage/landingPageSection2";
+import LandinPageSection3 from "../app/landingPage/landingPageSection3";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,6 +17,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <Header />
+        <LandinPageSection1 />
+        <LandinPageSection2 />
+        <LandinPageSection3 />
         {children}
       </body>
     </html>
