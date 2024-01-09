@@ -4,7 +4,7 @@ import logo from "../../resources/logo.png";
 export default function Navbar() {
   return (
     <nav
-      className="w-100 flex items-center justify-between flex-wrap bg-transparent
+      className=" fixed w-100 flex items-center justify-between flex-wrap bg-transparent
     p-6"
     >
       <div className="flex items-center flex-shrink-0 text-white mr-6">

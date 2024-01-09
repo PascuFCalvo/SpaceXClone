@@ -4,7 +4,7 @@ import StarlinkMission from "./landinPageComponents/starlinkMission";
 
 export default function LandinPageSection4() {
   return (
-    <div className="video-wrapper w-full relative ">
+    <div className="video-wrapper h-screen flex w-full  relative ">
       <video
         className="video"
         src={require("../../resources/video.mp4")}
