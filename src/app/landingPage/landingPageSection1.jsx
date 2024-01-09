@@ -17,7 +17,11 @@ export default function LandinPageSection1() {
         <div className="text-white text-4xl mx-auto"></div>
       </div>
       <div className="absolute bottom-20 ml-20">
-        <StarlinkMission />
+        <StarlinkMission
+          launch={"UPCOMING LAUNCH"}
+          mission={"STARLINK MISSION"}
+          textButton={"WATCH"}
+        />
       </div>
     </div>
   );
