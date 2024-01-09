@@ -16,7 +16,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Header />
         <LandinPageSection1 />
         <LandinPageSection2 />
         <LandinPageSection3 />
