@@ -21,6 +21,7 @@ export default function LandinPageSection1() {
           launch={"UPCOMING LAUNCH"}
           mission={"STARLINK MISSION"}
           textButton={"WATCH"}
+          navigate={"https://www.youtube.com/watch?v=8A2nJd9Urk8"}
         />
       </div>
     </div>

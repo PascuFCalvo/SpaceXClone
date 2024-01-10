@@ -63,7 +63,7 @@ export default function Navbar() {
           </a>
         </div>
         <div className="fixed top-0 right-0 mr-6 mt-6">
-          <Button watch={"API"} />
+          <Button watch={"API"} navigate={"/apiSection"} />
         </div>
       </div>
     </nav>
