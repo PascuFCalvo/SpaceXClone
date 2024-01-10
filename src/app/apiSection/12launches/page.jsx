@@ -33,7 +33,7 @@ export default function Launches() {
   return (
     <>
       <div>
-      <Header label={"BACK"} navigate={"../"} />
+        <Header label={"BACK"} navigate={"../"} />
       </div>
       <section className=" flex justify-center w-30 pt-20 pl-10 pr-10">
         <div className=" grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 ">

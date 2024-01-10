@@ -1,6 +1,6 @@
 import React from "react";
 import "./videoStyles.css";
-import StarlinkMission from "./landinPageComponents/starlinkMission";
+import StarlinkMission from "../../components/landinPageComponents/starlinkMission";
 
 export default function LandinPageSection4() {
   return (

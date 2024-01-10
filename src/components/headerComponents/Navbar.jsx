@@ -1,6 +1,6 @@
 import Image from "next/image";
 import logo from "../../resources/logo.png";
-import Button from "@/app/landingPage/landinPageComponents/button/button";
+import Button from "@/components/button/button";
 
 export default function Navbar({ label, navigate }) {
   return (

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import launch from "../../resources/launch1.jpg";
-import StarlinkMission from "./landinPageComponents/starlinkMission";
+import StarlinkMission from "../../components/landinPageComponents/starlinkMission";
 
 export default function LandinPageSection2() {
   return (

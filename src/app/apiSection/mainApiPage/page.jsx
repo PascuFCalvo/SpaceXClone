@@ -1,4 +1,4 @@
-import Button from "@/app/landingPage/landinPageComponents/button/button";
+import Button from "@/components/button/button";
 import Header from "../../../components/header";
 
 export default function MainApiPage() {
@@ -17,6 +17,10 @@ export default function MainApiPage() {
         <div className="buttons flex">
           <div className="ml-4">
             <Button label={"LAST LAUNCHES"} navigate={"12launches"} />
+          </div>
+
+          <div className="ml-4">
+            <Button label={"ALL LAUNCHES"} navigate={"allLaunches"} />
           </div>
 
           <div className="ml-4">

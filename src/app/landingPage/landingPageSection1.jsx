@@ -1,7 +1,7 @@
 import Image from "next/image";
 import starlink from "../../resources/starlink.jpg";
 import Header from "@/components/header";
-import StarlinkMission from "./landinPageComponents/starlinkMission";
+import StarlinkMission from "../../components/landinPageComponents/starlinkMission";
 
 export default function LandinPageSection1() {
   return (
