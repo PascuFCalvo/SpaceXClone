@@ -16,6 +16,7 @@ export default function LandinPageSection3() {
           launch={"RECENT LAUNCH"}
           mission={"OVZON 3 MISSION"}
           textButton={"REWATCH"}
+          navigate={"https://www.youtube.com/watch?v=8A2nJd9Urk8"}
         />
       </div>
     </div>
