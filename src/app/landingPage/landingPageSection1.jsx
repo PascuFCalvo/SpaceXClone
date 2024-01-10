@@ -13,7 +13,7 @@ export default function LandinPageSection1() {
         objectFit="cover"
       />
       <div className="absolute inset-0 z-10">
-        <Header />
+        <Header label={"API"} navigate={"/apiSection/mainApiPage"} />
         <div className="text-white text-4xl mx-auto"></div>
       </div>
       <div className="absolute bottom-20 ml-20">

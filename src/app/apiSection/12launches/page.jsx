@@ -4,7 +4,7 @@ import LaunchCardComponent from "@/components/apiSectionComponents/LaunchCardCom
 import Header from "@/components/header";
 import { useEffect, useState } from "react";
 
-export default function MyComponent() {
+export default function Launches() {
   const API_URL = "https://api.spacexdata.com/v5/launches";
 
   const [launches, setLaunches] = useState([]);
@@ -33,20 +33,20 @@ export default function MyComponent() {
   return (
     <>
       <div>
-        <Header />
+      <Header label={"BACK"} navigate={"../"} />
       </div>
       <section className=" flex justify-center w-30 pt-20 pl-10 pr-10">
         <div className=" grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 ">
           {last12launches.map((launch) => (
             <LaunchCardComponent
-              key={launch.id}
-              id={launch.id}
-              success={launch.success}
-              name={launch.name}
-              details={launch.details}
-              img={launch.links.patch.small}
-              wikipedia={launch.links.wikipedia}
-              article={launch.links.presskit}
+              key={launch?.id}
+              id={launch?.id}
+              success={launch?.success}
+              name={launch?.name}
+              details={launch?.details}
+              img={launch?.links?.patch?.small}
+              wikipedia={launch?.links?.wikipedia}
+              article={launch?.links?.presskit}
             />
           ))}
         </div>

@@ -2,7 +2,7 @@ import Image from "next/image";
 import logo from "../../resources/logo.png";
 import Button from "@/app/landingPage/landinPageComponents/button/button";
 
-export default function Navbar() {
+export default function Navbar({ label, navigate }) {
   return (
     <nav
       className=" fixed w-100 flex items-center justify-center  flex-wrap 
@@ -63,7 +63,7 @@ export default function Navbar() {
           </a>
         </div>
         <div className="fixed top-0 right-0 mr-6 mt-6">
-          <Button watch={"API"} navigate={"/apiSection"} />
+          <Button label={label} navigate={navigate} />
         </div>
       </div>
     </nav>
