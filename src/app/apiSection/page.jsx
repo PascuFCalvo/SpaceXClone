@@ -26,7 +26,8 @@ export default function MyComponent() {
   }, []);
 
   useEffect(() => {
-    console.log("last 12", last12launches);
+    console.log(last12launches);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [launches]);
 
   return (
@@ -34,7 +35,22 @@ export default function MyComponent() {
       <div>
         <Header />
       </div>
-      <LaunchCardComponent />
+      <section className=" flex justify-center w-30 pt-20 pl-10 pr-10">
+        <div className=" grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 ">
+          {last12launches.map((launch) => (
+            <LaunchCardComponent
+              key={launch.id}
+              id={launch.id}
+              success={launch.success}
+              name={launch.name}
+              details={launch.details}
+              img={launch.links.patch.small}
+              wikipedia={launch.links.wikipedia}
+              article={launch.links.presskit}
+            />
+          ))}
+        </div>
+      </section>
     </>
   );
 }
