@@ -5,8 +5,8 @@ export default function MainApiPage() {
   return (
     <>
       <Header label={"BACK"} navigate={"../"} />
-      <section className=" flex flex-col justify-center items-center  pt-20 pl-40 pr-40 w-full">
-        <p className="max-w-5xl">
+      <section className=" h-screen flex flex-col justify-center items-center  pt-20 pl-40 pr-40 w-full ">
+        <p className=" max-w-5xl mb-10">
           Welcome to the SpaceX API 🚀 Explore the wonders of SpaceX with our
           powerful API! 🌌 Whether you&apos;re a space enthusiast, developer, or
           researcher, our API offers a gateway to a wealth of information about
