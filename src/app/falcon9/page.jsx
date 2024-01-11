@@ -1,5 +1,6 @@
 import Counter from "@/components/falcon9Components/counter";
 import Falcon9Section1 from "./falcon9section1/page";
+import Falcon9Section2 from "./falcon9section2/page";
 
 export default function Falcon9() {
   return (
@@ -19,6 +20,7 @@ export default function Falcon9() {
           <h1>TOTAL REFLIGHTS</h1>
         </div>
       </div>
+      <Falcon9Section2 />
     </>
   );
 }
