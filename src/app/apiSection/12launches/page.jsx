@@ -44,7 +44,7 @@ export default function Launches() {
               success={launch?.success}
               name={launch?.name}
               details={launch?.details}
-              img={launch?.links?.patch?.small}
+              img={launch.links.patch.small}
               wikipedia={launch?.links?.wikipedia}
               article={launch?.links?.presskit}
             />

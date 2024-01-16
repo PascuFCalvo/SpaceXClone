@@ -1,0 +1,16 @@
+.swiper-button-prev-unique {
+   width: 20px;
+   height: 20px;
+   background-color: red;
+}
+
+.swiper-button-next-unique {
+   width: 20px;
+   height: 20px;
+   background-color: rgb(77, 255, 0);
+}
+
+.lala {
+   display: flex;
+   
+}

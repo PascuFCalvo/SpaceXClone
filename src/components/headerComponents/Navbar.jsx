@@ -14,7 +14,7 @@ export default function Navbar({ label, navigate }) {
       <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto ">
         <div className="text-sm lg:flex-grow">
           <a
-            href="#responsive-header"
+            href="falcon9"
             className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4 hover:border-b-2 "
           >
             FALCON 9

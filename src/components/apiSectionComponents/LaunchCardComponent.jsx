@@ -11,7 +11,7 @@ export default function LaunchCardComponent({
   return (
     <div className="min-w-sm max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
       <a className="w-100 mx-auto flex justify-center mt-4" href={wikipedia}>
-        <Image src={img} alt="" />
+        <img src={img} alt=""></img>
       </a>
       <div className="p-5">
         <a href={wikipedia}>
